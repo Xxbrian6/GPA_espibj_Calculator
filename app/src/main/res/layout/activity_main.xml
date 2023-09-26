@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/num_for_grade1"
+        android:text="@string/first_course"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num_for_grade1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/num_for_grade2"
+        android:text="@string/second_course"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num_for_grade2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/num_for_grade3"
+        android:text="@string/thrid_course"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num_for_grade3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/num_for_grade4"
+        android:text="@string/fourth_course"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num_for_grade4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/num_for_grade5"
+        android:text="@string/fifth_course"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num_for_grade5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="calculateClick"
+        android:text="@string/compute_gpa" />
+
+    <TextView
+        android:id="@+id/gpa_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/display_gpa"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

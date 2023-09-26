@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GPA_espibj_Calculator</string>
+    <string name="first_course">1st Course</string>
+    <string name="second_course">2nd Course</string>
+    <string name="thrid_course">3rd Course</string>
+    <string name="fourth_course">4th Course</string>
+    <string name="fifth_course">5th Course</string>
+    <string name="compute_gpa">Compute GPA</string>
+    <string name="display_gpa">Total Gpa: ?</string>
+    <string name="total_gpa_num">Total Gpa: %d</string>
+</resources>
